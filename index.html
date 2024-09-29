@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Card Revoked!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Music Card Revoked!</h1>
+        <div id="instructions">
+            <p>Welcome to "Music Card Revoked!" </p>
+            <p></p>
+            <p>Select a Genre from below to test your music knowledge.</p>
+            <p>There are ten complex questions!</p>
+            <p>You must answer all questions correctly or your music card will be REVOKED!</p>
+            <p>Let the trivia fun begin! </p>
+        </div>
+        <div id="Genre">
+            <h2></h2>
+            <h2>Select a Music Genre:</h2>
+            <div class="buttonsForGenre">
+                <button class="Genre-button">Pop</button>
+                <button class="Genre-button">Rock</button>
+                <button class="Genre-button">Country</button>
+            </div>
+        </div>
+        <div id="quizHolder">
+            <h2 id="question"></h2>
+                <div id="answer-buttons" class="buttonsForGenre"></div>
+                 <button id="next-btn" class="btn"style="display: none;">Next</button>
+        </div>
+        <div id="gameover-message"style="display: none;">
+            <h2 id="uplifting-message"></h2>
+            <button class="btn" id="restart-btn">Play Again!</button>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

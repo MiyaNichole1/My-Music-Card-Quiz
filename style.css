@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(2, 62, 102); 
+}
+#game {
+    background: rgb(14, 80, 100);
+}
+
+h1 {
+   
+    font-size: 50px;
+    display: inline-flexbox;
+    flex-direction: row;
+    color: beige;
+    padding: 10px 26px;
+    gap: 20px;
+    font-family: Cambria;
+}
+h2 {
+    font-size: 25px;
+    display: inline-flexbox;
+    flex-direction: row;
+    color: beige;
+    padding: 20px 16px;
+    gap: 20px;
+    font-family: Cambria;
+}
+p {
+    font-size: 20px;
+    display: inline-flexbox;
+    flex-direction: row;
+    color: beige;
+    padding: 20px 16px;
+    gap: 20px;
+    font-family: Cambria;
+
+}
+.Genre-button {
+    width: 90%;
+    max-width: 300px;
+    margin: 80px auto 0;
+    padding: 20px 16px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+#quizHolder {
+    font-size: 50px;
+    display: inline-flexbox;
+    flex-direction: row;
+    color: beige;
+    padding: 80px 16px;
+    gap: 20px;
+    font-family: Cambria;
+    
+}
+.btn {
+    font-size: 20px;
+    flex-direction: column;
+    color: black;
+    padding: 10px 16px ;
+    font-family: Cambria;
+    display: flexbox;
+    justify-content: space-evenly;
+    
+}
